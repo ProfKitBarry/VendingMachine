@@ -8,7 +8,7 @@ class Button {
   color mouseOver;
   color mouseDown;
   color disabled;
-  boolean thisOne;
+  boolean thisOn = true;
 
   //the constructor
   Button(float tempX, float tempY, float tempW, float tempH, color tempColor) {
